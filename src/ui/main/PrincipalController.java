@@ -6,6 +6,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.input.MouseEvent;
 
 /**
  * FXML Controller class
@@ -35,6 +36,46 @@ public class PrincipalController implements Initializable {
     @FXML
     private void abrirJanelaCadastro(ActionEvent event) {
         // Abrir a janela de cadastro de produto
+    }
+
+    @FXML
+    private void btnSalvarExited(MouseEvent event) {
+        btnSalvar.setStyle("-fx-background-color: #66CDAA;");
+    }
+
+    @FXML
+    private void btnSalvarEntered(MouseEvent event) {
+        btnSalvar.setStyle("-fx-background-color: #008B8B;");
+    }
+
+    @FXML
+    private void btnEditarExited(MouseEvent event) {
+        btnEditar.setStyle("-fx-background-color: #66CDAA;");
+    }
+
+    @FXML
+    private void btnEditarEntered(MouseEvent event) {
+        btnEditar.setStyle("-fx-background-color: #008B8B;");
+    }
+
+    @FXML
+    private void btnExcluirExited(MouseEvent event) {
+        btnExcluir.setStyle("-fx-background-color: #66CDAA;");
+    }
+
+    @FXML
+    private void btnExcluirEntered(MouseEvent event) {
+        btnExcluir.setStyle("-fx-background-color: #008B8B;");
+    }
+
+    @FXML
+    private void btnFiltrarExited(MouseEvent event) {
+        btnFiltrar.setStyle("-fx-background-color: #66CDAA;");
+    }
+
+    @FXML
+    private void btnFiltrarEntered(MouseEvent event) {
+        btnFiltrar.setStyle("-fx-background-color: #008B8B;");
     }
     
 }
