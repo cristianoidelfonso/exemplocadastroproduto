@@ -1,5 +1,6 @@
 package ui.main;
 
+import com.jfoenix.controls.JFXButton;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -11,6 +12,15 @@ import javafx.fxml.Initializable;
  * @author Idelfonso
  */
 public class PrincipalController implements Initializable {
+
+    @FXML
+    private JFXButton btnSalvar;
+    @FXML
+    private JFXButton btnEditar;
+    @FXML
+    private JFXButton btnExcluir;
+    @FXML
+    private JFXButton btnFiltrar;
 
     /**
      * Initializes the controller class.
