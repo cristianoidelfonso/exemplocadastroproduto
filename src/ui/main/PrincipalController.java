@@ -40,42 +40,42 @@ public class PrincipalController implements Initializable {
 
     @FXML
     private void btnSalvarExited(MouseEvent event) {
-        btnSalvar.setStyle("-fx-background-color: #66CDAA;");
+        btnSalvar.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnSalvarEntered(MouseEvent event) {
-        btnSalvar.setStyle("-fx-background-color: #008B8B;");
+        btnSalvar.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnEditarExited(MouseEvent event) {
-        btnEditar.setStyle("-fx-background-color: #66CDAA;");
+        btnEditar.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnEditarEntered(MouseEvent event) {
-        btnEditar.setStyle("-fx-background-color: #008B8B;");
+        btnEditar.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnExcluirExited(MouseEvent event) {
-        btnExcluir.setStyle("-fx-background-color: #66CDAA;");
+        btnExcluir.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnExcluirEntered(MouseEvent event) {
-        btnExcluir.setStyle("-fx-background-color: #008B8B;");
+        btnExcluir.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnFiltrarExited(MouseEvent event) {
-        btnFiltrar.setStyle("-fx-background-color: #66CDAA;");
+        btnFiltrar.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnFiltrarEntered(MouseEvent event) {
-        btnFiltrar.setStyle("-fx-background-color: #008B8B;");
+        btnFiltrar.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
     
 }
