@@ -15,9 +15,9 @@
          <menus>
             <Menu mnemonicParsing="false" text="Produto">
               <items>
-                <MenuItem mnemonicParsing="false" text="Listar">
+                <MenuItem mnemonicParsing="false" text="Cadastro">
                      <accelerator>
-                        <KeyCodeCombination alt="UP" code="L" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                        <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
                      </accelerator>
                   </MenuItem>
               </items>
