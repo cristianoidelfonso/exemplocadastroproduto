@@ -17,7 +17,8 @@ public class Main extends Application{
         Parent root = FXMLLoader.load(getClass().getResource("Principal.fxml"));
         
         stage.setTitle("");
-        stage.getIcons().add(new Image("/icones/virtual-machine.96"));
+        stage.getIcons().add(new Image("/icones/virtual-machine-96.png"));
+        stage.setMaximized(true);
         
         Scene scene = new Scene(root);
         stage.setScene(scene);
