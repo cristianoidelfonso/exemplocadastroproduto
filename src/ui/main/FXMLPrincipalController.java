@@ -32,7 +32,7 @@ public class FXMLPrincipalController implements Initializable {
 
     @FXML
     private void abrirTelaCadastro(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/uiprodutocadastro/FXMLCadastroProduto.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ui.produto.cadastro/FXMLCadastroProduto.fxml"));
         
         Scene scene = new Scene(root);
         
@@ -40,6 +40,7 @@ public class FXMLPrincipalController implements Initializable {
         stage.setScene(scene);
         stage.setTitle("Cadastro de Produtos");
         stage.show();
+        
     }
     
 }
