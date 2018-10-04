@@ -14,7 +14,7 @@ public class Main extends Application{
     @Override
     public void start (Stage stage) throws IOException {
         
-        Parent root = FXMLLoader.load(getClass().getResource("Principal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLPrincipal.fxml"));
         
         stage.setTitle("");
         stage.getIcons().add(new Image("/icones/virtual-machine-96.png"));
