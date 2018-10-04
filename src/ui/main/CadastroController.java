@@ -1,4 +1,4 @@
-package ui.produto.cadastro;
+package ui.main;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;

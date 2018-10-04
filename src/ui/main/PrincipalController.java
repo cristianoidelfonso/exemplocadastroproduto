@@ -21,6 +21,8 @@ public class PrincipalController implements Initializable {
 
     /**
      * Initializes the controller class.
+     * @param url
+     * @param rb
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -29,7 +31,7 @@ public class PrincipalController implements Initializable {
 
     @FXML
     private void abrirJanelaCadastro(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("./iu/produto/cadastro/Cadastro.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Cadastro.fxml"));
         
         principal.getChildren().setAll(root);
     }
