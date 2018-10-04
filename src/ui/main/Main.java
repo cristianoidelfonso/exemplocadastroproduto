@@ -19,6 +19,7 @@ public class Main extends Application{
         stage.setTitle("");
         stage.getIcons().add(new Image("/icones/virtual-machine-96.png"));
         //stage.setMaximized(true);
+        stage.setResizable(false);
         
         Scene scene = new Scene(root);
         stage.setScene(scene);

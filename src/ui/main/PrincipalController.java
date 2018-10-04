@@ -40,41 +40,49 @@ public class PrincipalController implements Initializable {
 
     @FXML
     private void btnSalvarExited(MouseEvent event) {
+        // Quando o ponteiro do mouse sair da area do botão.
         btnSalvar.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnSalvarEntered(MouseEvent event) {
+        // Quando o ponteiro do mouse entrar na area do botão.
         btnSalvar.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnEditarExited(MouseEvent event) {
+        // Quando o ponteiro do mouse sair da area do botão.
         btnEditar.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnEditarEntered(MouseEvent event) {
+        // Quando o ponteiro do mouse entrar na area do botão.
         btnEditar.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnExcluirExited(MouseEvent event) {
+        // Quando o ponteiro do mouse sair da area do botão.
         btnExcluir.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnExcluirEntered(MouseEvent event) {
+        // Quando o ponteiro do mouse entrar na area do botão.
         btnExcluir.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnFiltrarExited(MouseEvent event) {
+        // Quando o ponteiro do mouse sair da area do botão.
         btnFiltrar.setStyle("-fx-background-color: #66CDAA; -fx-text-fill: #FFFFFF;");
     }
 
     @FXML
     private void btnFiltrarEntered(MouseEvent event) {
+        // Quando o ponteiro do mouse entrar na area do botão.
         btnFiltrar.setStyle("-fx-background-color: #008B8B; -fx-text-fill: #FFFFFF;");
     }
     
