@@ -1,12 +1,17 @@
 package ui.main;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
+import javafx.stage.Stage;
 
 public class FXMLPrincipalController implements Initializable {
 
@@ -26,7 +31,15 @@ public class FXMLPrincipalController implements Initializable {
     }    
 
     @FXML
-    private void abrirTelaCadastro(ActionEvent event) {
+    private void abrirTelaCadastro(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/uiprodutocadastro/FXMLCadastroProduto.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.setTitle("Cadastro de Produtos");
+        stage.show();
     }
     
 }
