@@ -22,27 +22,31 @@ public class FXMLPrincipalController implements Initializable {
 
     /**
      * Initializes the controller class.
+     *
      * @param url
      * @param rb
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
+    }
 
     @FXML
     private void abrirTelaCadastro(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/ui/produto/cadastro/FXMLCadastroProduto.fxml"));
-        
+        Parent root = FXMLLoader.load(getClass().getResource("/uiprodutocadastro/FXMLCadastroProduto.fxml"));
+
         Scene scene = new Scene(root);
-        
+
         Stage stage = new Stage();
         stage.setScene(scene);
+        //stage.setMaximized(true);
+        stage.setResizable(false);
         stage.setTitle("Cadastro de Produtos");
         stage.show();
+        
 
         //principal.getChildren().setAll(root);
-        
+
     }
-    
+
 }
