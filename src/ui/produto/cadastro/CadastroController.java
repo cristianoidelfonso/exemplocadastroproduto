@@ -8,12 +8,10 @@ import javafx.fxml.Initializable;
  * FXML Controller class
  * @author Idelfonso
  */
-public class CadastroProdutoController implements Initializable {
+public class CadastroController implements Initializable {
 
     /**
      * Initializes the controller class.
-     * @param url
-     * @param rb
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
