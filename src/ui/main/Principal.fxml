@@ -52,7 +52,7 @@
          <children>
             <HBox prefWidth="702.0" spacing="20.0">
                <children>
-                  <JFXTextField editable="false" labelFloat="true" promptText="ID:">
+                  <JFXTextField fx:id="txtId" editable="false" labelFloat="true" promptText="ID:">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </HBox.margin>
@@ -60,7 +60,7 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                   </JFXTextField>
-                  <JFXTextField labelFloat="true" promptText="Código:" HBox.hgrow="ALWAYS">
+                  <JFXTextField fx:id="txtCodigo" labelFloat="true" promptText="Código:" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </HBox.margin>
@@ -73,7 +73,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </VBox.margin>
             </HBox>
-            <JFXTextField labelFloat="true" promptText="Nome:">
+            <JFXTextField fx:id="txtNome" labelFloat="true" promptText="Nome:">
                <padding>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
@@ -86,7 +86,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                </VBox.margin>
                <children>
-                  <JFXTextField labelFloat="true" promptText="Preço:">
+                  <JFXTextField fx:id="txtPreço" labelFloat="true" promptText="Preço:">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </HBox.margin>
@@ -94,7 +94,7 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                   </JFXTextField>
-                  <JFXTextField labelFloat="true" promptText="Quantidade:">
+                  <JFXTextField fx:id="txtQuantidade" labelFloat="true" promptText="Quantidade:">
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </HBox.margin>
@@ -104,7 +104,7 @@
                   </JFXTextField>
                   <FlowPane alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="242.0" HBox.hgrow="ALWAYS">
                      <children>
-                        <Label text="Validade:">
+                        <Label fx:id="lblData" text="Validade:">
                            <FlowPane.margin>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </FlowPane.margin>
@@ -112,7 +112,7 @@
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </padding>
                         </Label>
-                        <DatePicker prefHeight="30.0" prefWidth="154.0">
+                        <DatePicker fx:id="dpValidade" prefHeight="30.0" prefWidth="154.0">
                            <FlowPane.margin>
                               <Insets right="5.0" />
                            </FlowPane.margin>
