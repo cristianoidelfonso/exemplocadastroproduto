@@ -15,7 +15,7 @@
          <menus>
             <Menu mnemonicParsing="false" text="Produto">
               <items>
-                <MenuItem mnemonicParsing="false" onAction="#abrirJanelaCadastro" text="Cadastro">
+                <MenuItem fx:id="menuItem" mnemonicParsing="false" onAction="#abrirJanelaCadastro" text="Cadastro">
                      <accelerator>
                         <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
                      </accelerator>
