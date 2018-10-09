@@ -147,12 +147,12 @@
                </FlowPane.margin>
             </FlowPane>
             <Separator prefHeight="21.0" prefWidth="682.0" />
-            <FlowPane alignment="CENTER_LEFT">
+            <FlowPane alignment="CENTER_LEFT" maxWidth="1.7976931348623157E308">
                <FlowPane.margin>
                   <Insets />
                </FlowPane.margin>
                <children>
-                  <HBox alignment="CENTER" spacing="25.0">
+                  <HBox alignment="CENTER" prefHeight="40.0" prefWidth="307.0" spacing="25.0">
                      <children>
                         <JFXTextField fx:id="txtFiltro" prefHeight="25.0" prefWidth="260.0" />
                         <JFXComboBox fx:id="cbFiltro" />
