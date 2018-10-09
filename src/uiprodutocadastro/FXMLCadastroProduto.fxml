@@ -168,7 +168,7 @@
                            </padding>
                         </HBox>
                         <Separator prefHeight="21.0" prefWidth="682.0" />
-                        <TableView fx:id="tblProdutos" prefHeight="142.0" prefWidth="682.0" />
+                        <TableView fx:id="tblProdutos" prefHeight="142.0" />
                      </children>
                   </VBox>
                </children>
