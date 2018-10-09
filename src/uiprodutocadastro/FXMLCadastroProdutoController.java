@@ -49,8 +49,4 @@ public class FXMLCadastroProdutoController implements Initializable {
         // TODO
     } 
     
-    public void fecharTelaCadastroProduto(){
-        
-    }
-    
 }
