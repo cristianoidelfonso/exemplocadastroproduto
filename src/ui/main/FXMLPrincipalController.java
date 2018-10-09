@@ -35,17 +35,17 @@ public class FXMLPrincipalController implements Initializable {
     private void abrirTelaCadastro(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("/uiprodutocadastro/FXMLCadastroProduto.fxml"));
 
-        Scene scene = new Scene(root);
-
-        Stage stage = new Stage();
-        stage.setScene(scene);
-        //stage.setMaximized(true);
-        stage.setResizable(false);
-        stage.setTitle("Cadastro de Produtos");
-        stage.show();
+//        Scene scene = new Scene(root);
+//
+//        Stage stage = new Stage();
+//        stage.setScene(scene);
+//        //stage.setMaximized(true);
+//        stage.setResizable(false);
+//        stage.setTitle("Cadastro de Produtos");
+//        stage.show();
         
 
-        //principal.getChildren().setAll(root);
+        principal.getChildren().setAll(root);
     }
 
 }

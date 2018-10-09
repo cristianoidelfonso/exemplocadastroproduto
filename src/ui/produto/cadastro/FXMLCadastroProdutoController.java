@@ -14,6 +14,7 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableView;
 
 /**
  * FXML Controller class
@@ -48,6 +49,8 @@ public class FXMLCadastroProdutoController implements Initializable {
     private JFXComboBox<?> cbFiltro;
     @FXML
     private JFXButton btnFiltrar;
+    @FXML
+    private TableView<?> tblProdutos;
 
     /**
      * Initializes the controller class.
