@@ -46,7 +46,6 @@ public class FXMLPrincipalController implements Initializable {
         
 
         //principal.getChildren().setAll(root);
-
     }
 
 }
