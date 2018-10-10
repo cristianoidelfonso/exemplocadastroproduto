@@ -7,6 +7,7 @@ package model.conexao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
@@ -32,5 +33,19 @@ public class ConnectionFactory {
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException("Ocorreu um  erro inesperado" + e);
         }
+    }
+    
+    /**
+     * Prepara uma SQL pra ser executada como PreparedStatement
+     *
+     * @param sql
+     * @return
+     * @throws SQLException
+     */
+    public static PreparedStatement prepararSQL(String sql)
+            throws SQLException {
+
+        return getConnection().prepareStatement(sql);
+
     }
 }
