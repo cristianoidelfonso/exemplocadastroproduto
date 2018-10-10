@@ -8,11 +8,21 @@ public class Produto {
     private String nome;
     private double preco;
     private String codigo;
-    private int quantidade;
+    private double quantidade;
     private LocalDate validade;
 
     public Produto() {
     }
+
+    public Produto(int idproduto, String nome, double preco, String codigo, double quantidade, LocalDate validade) {
+        this.idproduto = idproduto;
+        this.nome = nome;
+        this.preco = preco;
+        this.codigo = codigo;
+        this.quantidade = quantidade;
+        this.validade = validade;
+    }
+    
 
     public int getIdproduto() {
         return idproduto;
@@ -46,11 +56,11 @@ public class Produto {
         this.codigo = codigo;
     }
 
-    public int getQuantidade() {
+    public double getQuantidade() {
         return quantidade;
     }
 
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(double quantidade) {
         this.quantidade = quantidade;
     }
 

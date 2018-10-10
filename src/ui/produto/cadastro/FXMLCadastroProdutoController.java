@@ -11,10 +11,12 @@ import com.jfoenix.controls.JFXDatePicker;
 import com.jfoenix.controls.JFXTextField;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
+import model.entidades.Produto;
 
 /**
  * FXML Controller class
@@ -54,12 +56,31 @@ public class FXMLCadastroProdutoController implements Initializable {
 
     /**
      * Initializes the controller class.
+     *
      * @param url
      * @param rb
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
-    
+    }
+
+    @FXML
+    private void salvar(ActionEvent event) {
+
+        double precoDouble = Double.parseDouble(txtPreco.getText());
+        double qtdDouble = Double.parseDouble(txtQuantidade.getText());
+
+        //Pegando os dados da tela
+        Produto p = new Produto(
+                0,
+                txtNome.getText(),
+                precoDouble,
+                txtCodigo.getText(), 
+                qtdDouble,
+                dpValidade.getValue()
+                
+        );
+    }
+
 }

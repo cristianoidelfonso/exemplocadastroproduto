@@ -117,7 +117,7 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </FlowPane.margin>
                      <children>
-                        <JFXButton fx:id="btnSalvar" maxHeight="30.0" maxWidth="80.0" minHeight="30.0" minWidth="80.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #5582d1; -fx-text-fill: #FFFFFF;" text="Salvar">
+                        <JFXButton fx:id="btnSalvar" maxHeight="30.0" maxWidth="80.0" minHeight="30.0" minWidth="80.0" onAction="#salvar" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #5582d1; -fx-text-fill: #FFFFFF;" text="Salvar">
                            <padding>
                               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                            </padding>
